@@ -1,0 +1,19 @@
+#botonera{
+    font-size: 2rem;    
+}
+
+#imgbotonera img{
+    width: 200px;
+}
+
+nav{
+    ul{
+        li{
+            a:hover{
+                color: gray;
+                text-decoration: solid;
+                font-weight: bold;
+            }
+        }
+    }
+}

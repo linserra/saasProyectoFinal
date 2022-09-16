@@ -1,0 +1,20 @@
+/* pie */
+#footer{
+    grid-area: footer;
+}
+.pie{
+    text-align: center;
+    padding: 6px 20px;
+
+}
+
+.pie-imagen{
+    width: 40px;
+    
+}
+
+.pie-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

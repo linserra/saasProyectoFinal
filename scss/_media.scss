@@ -1,0 +1,46 @@
+/* ---RESPONSIVE----- */
+@media (min-width: 980px){
+
+    .contenedor-general{
+        width: 90%;
+        margin: 50px auto;
+        padding: 40px 20px;
+    }
+    .contenedor-contacto{
+        width: 30%;
+    }
+
+    .ancho-video{
+        width: 610px;
+        height: 315px;
+    }
+}
+
+@media (min-width: 1200px){
+    #cursos{
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+    }
+    .contenedor-cursos{
+        width: 30%;
+        padding: 5px 5px ;
+        margin: 30px 30px;
+        text-align: center;
+    }
+    .titulo-grande{
+        font-size: 4rem;
+    }
+
+    .ancho-video{
+        width: 1120px;
+        height: 630px;
+    }
+
+    .transform:hover{
+        transform: translate(0px,-2px);
+        cursor: pointer;
+        transition: transform 0.2s;
+    }
+
+}

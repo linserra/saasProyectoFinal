@@ -1,0 +1,89 @@
+.contenedor-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "botonera"
+    "encabezado"
+    "principal"
+    "footer";
+}
+
+#botonera{
+    grid-area: botonera;
+}
+
+/* encabezado */
+#encabezado{
+    grid-area: encabezado;
+}
+
+#principal{
+    grid-area: principal;
+
+}
+
+.img-fluid{
+    width: 100%;
+}
+.contenedor-general{
+    width: 100%;
+    height: auto;
+    overflow-y: auto;
+    border:solid black 2px;
+    text-align: center;
+    
+}
+
+.ancho-video{
+    width: 366px;
+    height: 189px;
+}
+
+.contenedor-contacto{
+    font-size: 2rem;
+    width: 80%;
+    height: auto;
+    margin: 50px auto;
+    padding: 15px 10px;
+    overflow-y: auto;
+    border:solid black 1px;
+    text-align: center;
+    form{
+        label {
+            color: $secondaryColor;
+        }
+
+    }
+    
+    
+}
+
+#cursos{
+    padding: 25px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.contenedor-cursos{
+    margin: 10px;
+    width: 90%;
+    overflow-y: auto;
+    border: solid black 1px;
+    border-radius: 10px;
+    text-align: left;
+    p{
+        text-align: left;
+    }
+}
+
+
+.flexible-columnas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
