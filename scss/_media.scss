@@ -7,7 +7,10 @@
         padding: 40px 20px;
     }
     .contenedor-contacto{
-        width: 30%;
+        width: 60%;
+        &:hover{
+            background-color: map-get($map:$paleta, $key:'primero');;
+        }
     }
 
     .ancho-video{
@@ -27,6 +30,10 @@
         padding: 5px 5px ;
         margin: 30px 30px;
         text-align: center;
+    }
+
+    .contenedor-contacto{
+        width: 45%;
     }
     .titulo-grande{
         font-size: 4rem;

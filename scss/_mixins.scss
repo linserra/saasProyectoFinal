@@ -1,0 +1,6 @@
+//mixins
+@mixin textomixin($size,$interlineado,$color){
+    font-size: $size;
+    line-height: $interlineado;
+    color: $color;
+}

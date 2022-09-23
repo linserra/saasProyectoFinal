@@ -111,7 +111,7 @@ nav ul li a:hover {
   width: 100%;
 }
 
-.contenedor-general {
+.contenedor-general, .contenedor-secundario {
   width: 100%;
   height: auto;
   overflow-y: auto;
@@ -119,9 +119,19 @@ nav ul li a:hover {
   text-align: center;
 }
 
+.contenedor-secundario {
+  border-radius: 2px;
+}
+
 .ancho-video {
   width: 366px;
   height: 189px;
+}
+
+.format-mixin {
+  font-size: 1em;
+  line-height: 2em;
+  color: #2B8C55;
 }
 
 .contenedor-contacto {
@@ -186,13 +196,16 @@ nav ul li a:hover {
 
 /* ---RESPONSIVE----- */
 @media (min-width: 980px) {
-  .contenedor-general {
+  .contenedor-general, .contenedor-secundario {
     width: 90%;
     margin: 50px auto;
     padding: 40px 20px;
   }
   .contenedor-contacto {
-    width: 30%;
+    width: 60%;
+  }
+  .contenedor-contacto:hover {
+    background-color: #D9D9D9;
   }
   .ancho-video {
     width: 610px;
@@ -210,6 +223,9 @@ nav ul li a:hover {
     padding: 5px 5px;
     margin: 30px 30px;
     text-align: center;
+  }
+  .contenedor-contacto {
+    width: 45%;
   }
   .titulo-grande {
     font-size: 4rem;

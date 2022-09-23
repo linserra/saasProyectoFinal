@@ -35,9 +35,19 @@
     
 }
 
+.contenedor-secundario{
+    @extend .contenedor-general;
+    border-radius: 2px;
+}
+
 .ancho-video{
     width: 366px;
     height: 189px;
+    
+}
+
+.format-mixin{
+    @include textomixin(1em,2em,map-get($map:$paleta, $key:'segundo'));
 }
 
 .contenedor-contacto{
@@ -51,7 +61,7 @@
     text-align: center;
     form{
         label {
-            color: $secondaryColor;
+            color: map-get($map:$paleta, $key:'segundo');
         }
 
     }
