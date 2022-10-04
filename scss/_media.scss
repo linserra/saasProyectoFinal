@@ -1,5 +1,8 @@
 /* ---RESPONSIVE----- */
 @media (min-width: 980px){
+    #imgbotonera img{
+        width: 200px;
+    }
 
     .contenedor-general{
         width: 90%;
@@ -39,15 +42,18 @@
         font-size: 4rem;
     }
 
-    .ancho-video{
-        width: 1120px;
-        height: 630px;
-    }
-
+    
     .transform:hover{
         transform: translate(0px,-2px);
         cursor: pointer;
         transition: transform 0.2s;
     }
 
+}
+
+@media (min-width: 1300px){
+    .ancho-video{
+        width: 1120px;
+        height: 630px;
+    }
 }
