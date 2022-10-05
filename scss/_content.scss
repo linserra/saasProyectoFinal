@@ -53,7 +53,7 @@
 }
 
 .contenedor-contacto{
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 95%;
     height: auto;
     margin: 50px auto;
@@ -95,6 +95,17 @@
     p{
         text-align: left;
     }
+}
+
+.contenedor-asesoramiento{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    div{
+        border: solid black 1px;
+    }
+    
 }
 
 

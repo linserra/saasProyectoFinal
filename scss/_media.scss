@@ -11,9 +11,6 @@
     }
     .contenedor-contacto{
         width: 60%;
-        &:hover{
-            background-color: map-get($map:$paleta, $key:'primero');;
-        }
     }
 
     .ancho-video{
@@ -35,7 +32,19 @@
         text-align: center;
     }
 
+    .contenedor-asesoramiento{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+        div{
+            width: 33%;
+            
+        }
+    }
+
     .contenedor-contacto{
+        font-size: 2rem;
         width: 45%;
     }
     .titulo-grande{
@@ -57,6 +66,8 @@
         width: 1120px;
         height: 630px;
     }
+
+    
 }
 
 @media (min-width: 1400px){
