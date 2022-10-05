@@ -260,6 +260,7 @@ nav ul li a:hover {
   }
   .contenedor-asesoramiento div {
     width: 33%;
+    border-radius: 10px;
   }
   .contenedor-contacto {
     font-size: 2rem;
