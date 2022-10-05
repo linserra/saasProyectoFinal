@@ -23,10 +23,10 @@
 }
 
 @media (min-width: 1200px){
-    #cursos{
-        flex-direction: row;
-        justify-content: space-around;
-        align-content: center;
+    
+
+    .cartas{
+        width: 70%;
     }
     .contenedor-cursos{
         width: 30%;
@@ -52,8 +52,25 @@
 }
 
 @media (min-width: 1300px){
+    
     .ancho-video{
         width: 1120px;
         height: 630px;
+    }
+}
+
+@media (min-width: 1400px){
+    #cursos{
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+    }
+    .cartas{
+        width: 370px;
+    }
+}
+@media (min-width: 1600px){
+    .cartas{
+        width: 450px;
     }
 }
